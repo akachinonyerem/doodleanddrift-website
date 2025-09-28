@@ -73,7 +73,7 @@ body {
 .welcome-banner {
     display: flex;
     flex-direction: column;
-    padding: 0 2.4rem;
+    padding: 3rem 2.4rem;
 }
 
 .welcome-text {
@@ -171,6 +171,7 @@ body {
 .sub-area img {
     height: 12rem;
     padding-bottom: 1rem;
+    object-fit: contain;
 }
 
 .joinclub {
@@ -187,7 +188,7 @@ body {
     color: white;
     background-color: #277206;
     border: 0;
-    padding: 6rem;
+    padding: 5.5rem;
     font-size: 4rem;
     border-radius: 10rem;
 }
@@ -197,7 +198,7 @@ body {
 .project-intro {
     display: flex;
     flex-direction: column;
-    padding: 2.4rem;
+    padding: 3rem 2.4rem;
     justify-content: center;
 }
 
@@ -231,7 +232,7 @@ body {
 
 .faq-wrapper, .footer-wrapper {
     display: flex;
-    padding: 2.4rem;
+    padding: 3rem 2.4rem;
     flex-direction: column;
 }
 
@@ -320,8 +321,20 @@ body {
 
 .footer-heart {
     display: flex;
-    justify-content: end;
-    padding-bottom: 1.6rem;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: center;
+}
+
+.social-medium {
+    display: flex;
+    gap: 2rem;
+}
+
+.social-link {
+    font-size: 2.8rem;
+    color: #12110C;
+    text-decoration: none;
 }
 
 .footer-heart img {
@@ -346,7 +359,7 @@ body {
     }
 
     .welcome-banner {
-        padding: 4rem;
+        padding: 6rem 4rem;
     }
 
     .welcome-text {
@@ -393,7 +406,7 @@ body {
     }
 
     .is-safari .sun3 {
-        left: 75%;
+        right: 75%;
     }
 
 
@@ -431,7 +444,7 @@ body {
     }
 
     .project-intro {
-        padding: 4rem;
+        padding: 6rem 4rem;
     }
 
     .intro-text {
@@ -440,7 +453,7 @@ body {
     }
 
     .faq-wrapper, .footer-wrapper {
-        padding: 4rem;
+        padding: 6rem 4rem;
     }
 
     .faq-item {
@@ -459,7 +472,7 @@ body {
     }
 
     .faq-response li {
-        font-size: 3.8rem;
+        font-size: 4rem;
         width: 50%;
         padding-bottom: 0.5rem;
     }
