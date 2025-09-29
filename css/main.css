@@ -501,12 +501,20 @@ body {
         bottom: 28%;
     }
 
+    .social-link {
+        font-size: 4.5rem;
+    }
+
     .footer-logo {
         height: 24rem;
     }
 
     .footer-year {
         font-size: 8rem;
+    }
+
+    .footer-heart {
+        padding: 4rem 0;
     }
 
     .footer-heart img {
