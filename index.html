@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="preload" href="/css/font/JojobaRegular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        if (isSafari) document.documentElement.classList.add('is-safari');
+    </script>
 
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
@@ -92,11 +94,13 @@
                 this is a cute project by friends - david, tej & akachi
             </h2>
             <div class="intro-img">
-                <img src="img/akachi.svg" alt="ak baby" class="avatar">
-                <img src="img/connect 1.svg" alt="connecting thread between ak and tej" class="avatar-con">
-                <img src="img/tej.svg" alt="tej" class="avatar">
-                <img src="img/connect 2.svg" alt=" connecting thread between tej and david" class="avatar-con">
-                <img src="img/david.svg" alt="davidooo" class="avatar">
+                <img src="img/akachi.svg" alt="ak baby" class="avatar" loading="lazy">
+                <img src="img/connect 1.svg" alt="connecting thread between ak and tej" class="avatar-con"
+                    loading="lazy">
+                <img src="img/tej.svg" alt="tej" class="avatar" loading="lazy">
+                <img src="img/connect 2.svg" alt=" connecting thread between tej and david" class="avatar-con"
+                    loading="lazy">
+                <img src="img/david.svg" alt="davidooo" class="avatar" loading="lazy">
             </div>
         </section>
 
@@ -107,18 +111,19 @@
             <div class="new-drop-area">
                 <div class="new-drop-item">
                     <div class="drop-frame-wrapper">
-                        <img src="img/frame 1.svg" alt="frame" class="drop-frame">
-                        <img src="img/october-drop.webp" alt="image showing items from the october mail" class="drop-img">
+                        <img src="img/frame 1.svg" alt="frame" class="drop-frame" loading="lazy">
+                        <img src="img/october-drop.webp" alt="image showing items from the october mail"
+                            class="drop-img" loading="lazy">
                     </div>
                     <p class="month-text">october</p>
-                    <button class="new-drop-button" 
-                    onclick="window.open('https://paystack.com/buy/octobers-mail-2025-new-beginnings', '_blank')">buy</button>
+                    <button class="new-drop-button"
+                        onclick="window.open('https://paystack.com/buy/octobers-mail-2025-new-beginnings', '_blank')">buy</button>
                 </div>
 
                 <div class="new-drop-item">
                     <div class="drop-frame-wrapper">
-                        <img src="img/frame 2.svg" alt="frame" class="drop-frame">
-                        <img src="img/comingsoon.webp" alt="" class="drop-img">
+                        <img src="img/frame 2.svg" alt="frame" class="drop-frame" loading="lazy">
+                        <img src="img/comingsoon.webp" alt="" class="drop-img" loading="lazy">
                     </div>
                     <p class="month-text">november</p>
                     <button class="new-drop-button new-drop-btn-disabled">buy</button>
@@ -126,8 +131,8 @@
 
                 <div class="new-drop-item">
                     <div class="drop-frame-wrapper">
-                        <img src="img/frame 3.svg" alt="frame" class="drop-frame">
-                        <img src="img/comingsoonbw.webp" alt="" class="drop-img">
+                        <img src="img/frame 3.svg" alt="frame" class="drop-frame" loading="lazy">
+                        <img src="img/comingsoonbw.webp" alt="" class="drop-img" loading="lazy">
                     </div>
                     <p class="month-text">december</p>
                     <button class="new-drop-button new-drop-btn-disabled">buy</button>
@@ -141,14 +146,14 @@
         <div class="faq-wrapper">
             <div class="faq-item">
                 <p class="faq-question"> what will i get?</p>
-                <img src="img/emphasis-1.svg" alt="emphasis doodle" class="emphasis-1">
+                <img src="img/emphasis-1.svg" alt="emphasis doodle" class="emphasis-1" loading="lazy">
                 <ul class="faq-response green">
                     <li>an a4 art print</li>
                     <li>a postcard</li>
                     <li>a bookmark</li>
                     <li>a surprise item</li>
                 </ul>
-                <img src="img/asteriskkk.svg" alt="asterisk doodle" class="asteriskkk">
+                <img src="img/asteriskkk.svg" alt="asterisk doodle" class="asteriskkk" loading="lazy">
             </div>
 
             <div class="faq-item">
@@ -182,20 +187,15 @@
                     <a class="social-link" href="https://www.tiktok.com/@doodleanddriftclub" target="_blank"
                         rel="noopener noreferrer">tiktok ➚</a>
                 </div>
-                <img src="img/heart.svg" alt="">
+                <img src="img/heart.svg" alt="" loading="lazy">
             </div>
             <div class="footer-bottom">
-                <img src="img/logostack.webp" alt="doodle and drift logo" class="footer-logo">
+                <img src="img/logostack.webp" alt="doodle and drift logo" class="footer-logo" loading="lazy">
                 <p class="footer-year">2025</p>
             </div>
         </div>
     </div>
 
-    <script src="js/script.js"></script>
 </body>
-
-<script>
-
-</script>
 
 </html>
